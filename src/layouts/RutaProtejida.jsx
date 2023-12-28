@@ -1,7 +1,7 @@
 import { Outlet, Navigate } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import Header from "../components/Header";
-import SideBar from "./components/SideBar";
+import SideBar from "../components/Sidebar";
 
 const RutaProtejida = () => {
 
