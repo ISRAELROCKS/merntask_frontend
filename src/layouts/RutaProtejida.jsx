@@ -1,7 +1,7 @@
 import { Outlet, Navigate } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 import Header from "../components/Header";
-import Sidebar from "../components/SideBar";
+import SideBar from "./components/SideBar";
 
 const RutaProtejida = () => {
 
@@ -13,7 +13,7 @@ const RutaProtejida = () => {
           <div className="bg-gray-100">
             <Header/>
             <div className="md:flex md:min-h-screen">
-              <Sidebar/>
+              <SideBar/>
               <main className="p-10 flex-1 ">
                 <Outlet/>
               </main>
